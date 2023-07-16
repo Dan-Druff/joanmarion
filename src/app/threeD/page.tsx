@@ -5,7 +5,7 @@ import { Canvas, useLoader } from '@react-three/fiber';
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const ThreeDPage = () => {
-    const model = useLoader(GLTFLoader, "/models/tree1.glb");
+    const model = useLoader(GLTFLoader, "/models/suzy.gltf");
   return (
     <div className={styles.container}>
         <VRButton />
