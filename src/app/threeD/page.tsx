@@ -17,7 +17,7 @@ const ThreeDPage = () => {
                 <meshStandardMaterial color="green" />
             </mesh>
             <object3D position={[2,0,0]}>
-                <primitive object={model.scene}></primitive>
+                <primitive dispose={null} object={model.scene}></primitive>
             </object3D>
             </XR>
         </Canvas>
