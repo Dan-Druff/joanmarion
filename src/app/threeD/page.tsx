@@ -1,12 +1,11 @@
 'use client';
 import { VRButton, XR } from '@react-three/xr';
 import styles from '../page.module.css';
-import { Canvas } from '@react-three/fiber';
-import { useLoader } from "@react-three/fiber";
+import { Canvas, useLoader } from '@react-three/fiber';
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const ThreeDPage = () => {
-    const model = useLoader(GLTFLoader, "./models/tree1.glb");
+    const model = useLoader(GLTFLoader, "/models/tree1.glb");
   return (
     <div className={styles.container}>
         <VRButton />
