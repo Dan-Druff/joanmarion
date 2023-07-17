@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <p>MAIN PAGE</p>
+      
       <Link href="/threeD">3D</Link>
     </div>
   )
